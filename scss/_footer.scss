@@ -1,0 +1,48 @@
+.iconos {
+    @include iconos-display();
+    margin-top: 5px;
+    
+  }
+  
+  .iconos2 {
+    margin-top: 25px;
+    @include iconos-display();
+  }
+
+ 
+  .instagram {
+    @include posicion-transition-iconos();
+  
+    &:hover {
+      transform: scale(1.3);
+    }
+  }
+  
+  .facebook {
+    @include posicion-transition-iconos();
+  
+    &:hover {
+      transform: scale(1.3);
+    }
+  }
+  
+  .soundcloud {
+    @include posicion-transition-iconos();
+  
+    &:hover {
+      transform: scale(1.3);
+    }
+  }
+  
+  .youtube {
+    margin-right: -1px;
+    transition: 1s;
+    object-fit: cover;
+  
+    &:hover {
+      transform: scale(1.3);
+    }
+  }
+  .footer{
+    background-image: linear-gradient(to top, rgb(15, 15, 15), $negro);
+  }

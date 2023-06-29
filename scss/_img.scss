@@ -1,0 +1,46 @@
+.image-container {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  .img-thumbnail {
+    border: none !important;
+    transition: transform 0.3s;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .logotipo {
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  .logoprincipal{
+    width: 100px;
+  }
+ .logotipof{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+  .logofooter{
+  width: 70px;
+ }
+ .iconofooter{
+  width: 25px;
+  height: 25px;
+ }
