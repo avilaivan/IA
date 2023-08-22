@@ -1,0 +1,4 @@
+username:if0_34522568
+ftp password:2l9eLjVzOFLNqd
+host:ftpupload.net
+puerto:21
